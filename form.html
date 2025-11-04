@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+</head>
+<body>
+    <div id="wrapper">
+               <header class="clearfix">
+                <a id=logo  href="index.html"><i><span class="pink">MindLift </span>Labs</i></a>
+
+        
+       <div class="mainnav">
+        <nav id="mainnav">
+            <ul>
+                <li ><a href="uslugi.html">Услуги</a></li>
+                <li ><a href="Onac.html">О нас</a></li>
+                <li ><a href="klienti.html">Клиенты</a></li>
+                <li ><a href="kontakti.html">Контакты</a></li>
+            </ul>
+            </nav>
+        </div>    
+           </header>  
+           <main>
+            <form action="форма" id="contact-form">
+              <div class="form_item">
+                <label for="name">Тема</label><br>
+                <select name="topic" id="topic">
+                    <option value="1">Заказать услугу</option>
+                    <option value="2">Оставить отзыв/замечание</option>
+                    <option value="3">Предложить сотрудничество</option>
+                    <option value="4">Другое</option>
+                </select>
+</div>  
+             <div class="form_item"> 
+                <label for="name">Имя</label><br> 
+            <input name="name" id="name" type="text" placeholder="Петя Пупкин">
+</div>
+<div class="form_item"> 
+    <label for="E-mail">E-mail</label><br> 
+<input name="E-mail" id="E-mail" type="text" placeholder="midis@gmail.com">
+</div>
+<div class="form_item"> 
+    <label for="textarea">Текст сообщения</label><br>
+    <textarea id="textarea" rows="7" placeholder="Опишите обращение подробно..."></textarea>
+</div>
+            <div>
+            <input type="submit">
+            </div>
+           </form> 
+           </main>
+    </div>
+<footer>
+    <p class="footer__block"><a href="form.html">Написать нам &#9650;</a></p>
+    <p class="footer__block">&copy; MindLift Labs</p>
+    <div class="footer_icons">
+            <a target= "_blank" href="https://ok.ru/"><img class="footer_img" src="img/ok.png" alt=""></a>
+            <a target= "_blank" href="https://vk.com/feed"><img class="footer_img" src="img/vk.png" alt="https://m.vk.com/"></a>
+            <a target= "_blank" href="https://mail.ru/"><img class="footer_img" src="img/mailru.png" alt=""></a>
+    </div>
+</footer>
+</body>
+</html>
